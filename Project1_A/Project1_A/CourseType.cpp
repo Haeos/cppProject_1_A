@@ -20,7 +20,7 @@ string CourseType::getPrefix() const { return PREFIX; }
 
 void CourseType::setCourseName(const string& newName)
 {
-
+    //THIS IS A COMMENT
 }
 
 void CourseType::setCourseNumber(int newNumber)
