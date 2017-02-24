@@ -24,6 +24,7 @@ void CourseType::setCourseName(const string& newName)
 
 
     ///tweouidhawoidawodinawoidnawoiwdna
+    //oaidnoawidwaodiawodijawodijaw
 }
 
 void CourseType::setCourseNumber(int newNum)
