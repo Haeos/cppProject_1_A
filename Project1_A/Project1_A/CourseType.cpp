@@ -21,10 +21,6 @@ string CourseType::getPrefix() const { return PREFIX; }
 void CourseType::setCourseName(const string& newName)
 {
 	courseName = newName;
-
-
-    ///tweouidhawoidawodinawoidnawoiwdna
-    //oaidnoawidwaodiawodijawodijaw
 }
 
 void CourseType::setCourseNumber(int newNum)
