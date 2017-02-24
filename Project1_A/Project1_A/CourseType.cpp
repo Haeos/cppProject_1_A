@@ -20,17 +20,17 @@ string CourseType::getPrefix() const { return PREFIX; }
 
 void CourseType::setCourseName(const string& newName)
 {
-
+	courseName = newName;
 }
 
-void CourseType::setCourseNumber(int newNumber)
+void CourseType::setCourseNumber(int newNum)
 {
-
+	courseNum = newNum;
 }
 
 void CourseType::setCourseUnits(double newUnits)
 {
-
+	units = newUnits;
 }
 
 void CourseType::printCourse()
