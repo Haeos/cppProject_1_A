@@ -33,7 +33,7 @@ public:
 	string getPrefix() const;
 
 	void setCourseName(const string& newName);
-	void setCourseNumber(int newNumber);
+	void setCourseNumber(int newNum);
 	void setCourseUnits(double newUnits);
 
 	void printCourse();
