@@ -21,7 +21,7 @@ void Course::setTransfer(char newTransferable) {
     transferable = newTransferable;
 }
 
-void setPrereqs(const int array[], int elements) {
+void Course::setPrereqs(const int array[], int elements) {
 
     for (int arrayNum = 0; i < elements; ++i)
     {
@@ -30,15 +30,18 @@ void setPrereqs(const int array[], int elements) {
 
 }
 
-void printCourse() const {
-
-
+void Course::printCourse() const {
 
   cout << fixed << showpoint << setprecision(2);
   cout << PREFIX << getCourseNumber() << " - " << getCourseName() << " ("
     << getCourseUnits() << "units, "
     << (if (isTransferable()) ? "transferable" : "not transferable") << ")"
     << endl;
+}
+
+void Course::printPrereqs() const
+{
+
 }
 
 Course::~Course() {}
