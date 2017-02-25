@@ -1,4 +1,5 @@
-#include "CourseType.h"		
+//main.cpp
+#include "CourseType.h"
 #include "Course.h"
 
 #include <iostream>

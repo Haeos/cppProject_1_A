@@ -1,3 +1,4 @@
+//courseType.cpp
 #include "CourseType.h"
 
 #include <string>
@@ -34,7 +35,7 @@ void CourseType::setCourseUnits(double newUnits)
 	units = newUnits;
 }
 
-void CourseType::printCourse()
+void CourseType::printCourse() const
 {
 	cout << fixed << showpoint << setprecision(2);
 	cout << PREFIX << courseNum << " - " << courseName << " (" <<
