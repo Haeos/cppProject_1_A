@@ -26,8 +26,8 @@ public:
 
     ~Course();
 
-    private
-        vector<int> preReq;
+private:
+    vector<int> preReq;
     char transferable;
 };
 

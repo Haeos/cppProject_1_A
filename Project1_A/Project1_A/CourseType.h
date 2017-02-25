@@ -1,10 +1,11 @@
 //courseType.hT
 /*
    Viridian Dynamics
+
    Josh Downs
    Richie Stanley
    Brian Nguyen
-	 Barry Phan
+   Barry Phan
 
    CS 250
    27 Feb 2017
@@ -28,7 +29,7 @@ class CourseType
 public:
 CourseType();
 CourseType(const string& newCourseName,
-											int newCourseNum, double newUnits);
+	int newCourseNum, double newUnits);
 
 string getCourseName() const;
 int getCourseNumber() const;
