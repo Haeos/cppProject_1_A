@@ -34,10 +34,7 @@ void Course::printCourse() const {
   cout << fixed << showpoint << setprecision(2);
   cout << PREFIX << getCourseNumber() << " - " << getCourseName() << " ("
 	  << getCourseUnits() << " units, ";
-  if (isTransferable())
-	  cout << "transferable";
-  else
-	  cout << "not transferable";
+  cout << (isTransferable() ? "transferable" : "not transferable");
   cout << ")" << endl;
 }
 
