@@ -1,4 +1,3 @@
-//course.cpp
 #include "Course.h"
 
 #include <string>
