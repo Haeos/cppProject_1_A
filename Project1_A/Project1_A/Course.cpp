@@ -44,7 +44,15 @@ void Course::printCourse() const {
 
 void Course::printPrereqs() const
 {
-
+	cout << PREFIX << getCourseNumber() << " - Prerequisites: ";
+	size_t vSize = static_cast<int>(preReq.size());
+	for (size_t i = 0; i < vSize; i++)
+	{
+		if (i > 0)
+			cout << " or ";
+		cout << PREFIX << preReq.at(i);
+	}
+	cout << endl;
 }
 
 Course::~Course() {}
