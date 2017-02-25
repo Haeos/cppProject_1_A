@@ -1,4 +1,3 @@
-//course.cpp
 #include "Course.h"
 
 #include <string>
@@ -20,7 +19,9 @@ void Course::setTransfer(char newTransferable) {
     transferable = newTransferable;
 }
 
-void setPrerequisites(const int array[], int elements) {
+
+
+void Course::setPrerequisites(const int array[], int elements) {
 
     for (int arrayNum = 0; i < elements; ++i)
     {
@@ -29,7 +30,7 @@ void setPrerequisites(const int array[], int elements) {
 
 }
 
-void printCourse() const {
+void Course::printCourse() const {
 
 
 
