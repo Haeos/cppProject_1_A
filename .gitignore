@@ -12,6 +12,7 @@
 *.VC.opendb
 *.VC.db
 
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -212,3 +213,4 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/Project1_A/Project1_A.VC.VC.opendb
