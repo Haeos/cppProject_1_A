@@ -18,9 +18,11 @@ public:
 
     void setTransfer(char transferable);
 
-    void setPrerequisites(const int array[], int elements);
+    void setPrereqs(const int array[], int elements);
 
     void printCourse() const;
+
+    void printPrereqs() const;
 
     ~Course();
 

@@ -21,7 +21,7 @@ void Course::setTransfer(char newTransferable) {
 
 
 
-void Course::setPrerequisites(const int array[], int elements) {
+void Course::setPrereqs(const int array[], int elements) {
 
     for (int arrayNum = 0; i < elements; ++i)
     {
@@ -40,5 +40,12 @@ void Course::printCourse() const {
         << (if (isTransferable()) ? "transferable" : "not transferable") << ")"
         << endl;
 }
+
+void Course::printPrereqs() const
+{
+
+}
+
+
 
 Course::~Course() {}
