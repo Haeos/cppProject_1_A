@@ -39,7 +39,7 @@ void CourseType::printCourse() const
 {
 	cout << fixed << showpoint << setprecision(2);
 	cout << PREFIX << courseNum << " - " << courseName << " (" <<
-		units << "units)" << endl;
+		units << " units)" << endl;
 }
 
 CourseType::~CourseType() {}
