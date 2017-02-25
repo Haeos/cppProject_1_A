@@ -39,6 +39,7 @@ public:
 	void setCourseUnits(double newUnits);
 
 	void printCourse();
+	~CourseType();
 
 private:
 	string courseName;
