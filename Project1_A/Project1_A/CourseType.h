@@ -1,4 +1,3 @@
-//courseType.hT
 /*
    Viridian Dynamics
 

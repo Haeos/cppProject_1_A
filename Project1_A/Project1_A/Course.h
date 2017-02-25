@@ -1,3 +1,18 @@
+/*
+Viridian Dynamics
+
+Josh Downs
+Richie Stanley
+Brian Nguyen
+Barry Phan
+
+CS 250
+27 Feb 2017
+
+Project 1 Part A
+*/
+
+
 #ifndef COURSE_H
 #define COURSE_H
 #include "CourseType.h"

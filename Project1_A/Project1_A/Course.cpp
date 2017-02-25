@@ -1,4 +1,3 @@
-//Course.cpp
 #include "CourseType.h"
 #include "Course.h"
 
@@ -51,7 +50,7 @@ void Course::printPrereqs() const
 		if (i > 0)
 			cout << " or ";
 		cout << PREFIX << preReq.at(i);
-	} //
+	}
 	cout << endl;
 }
 

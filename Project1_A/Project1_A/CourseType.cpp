@@ -1,4 +1,3 @@
-//courseType.cpp
 #include "CourseType.h"
 
 #include <string>

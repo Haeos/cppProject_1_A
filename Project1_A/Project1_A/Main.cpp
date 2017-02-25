@@ -1,4 +1,3 @@
-//main.cpp
 #include "CourseType.h"
 #include "Course.h"
 
