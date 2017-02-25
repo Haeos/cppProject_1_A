@@ -6,7 +6,8 @@
 
 using namespace std;
 
-CourseType::CourseType() : courseNum(0), units(0) {}
+CourseType::CourseType() : courseName("No name assigned"),
+courseNum(0), units(0) {}
 CourseType::CourseType(const string& newCourseName,
 	int newCourseNum, double newUnits)
 	: courseName(newCourseName),
@@ -35,5 +36,9 @@ void CourseType::setCourseUnits(double newUnits)
 
 void CourseType::printCourse()
 {
-
+	cout << fixed << showpoint << setprecision(2);
+	cout << PREFIX << courseNum << " - " << courseName << " (" <<
+		units << "units)" << endl;
 }
+
+CourseType::~CourseType() {}

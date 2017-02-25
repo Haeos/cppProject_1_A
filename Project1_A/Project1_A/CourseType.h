@@ -1,13 +1,15 @@
 /*
-	Viridian Dynamics
-		Josh Downs
-		Richie Stanley
+   Viridian Dynamics
+   Josh Downs
+   Richie Stanley
+   Phan, Barry
 
-	CS 250
-	27 Feb 2017
 
-	Project 1 Part A
-*/
+   CS 250
+   27 Feb 2017
+
+   Project 1 Part A
+ */
 
 
 #ifndef COURSETYPE_H
