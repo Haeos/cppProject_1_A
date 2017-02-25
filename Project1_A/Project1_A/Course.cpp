@@ -51,7 +51,7 @@ void Course::printPrereqs() const
 		if (i > 0)
 			cout << " or ";
 		cout << PREFIX << preReq.at(i);
-	}
+	} //
 	cout << endl;
 }
 
